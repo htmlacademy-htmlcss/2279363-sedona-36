@@ -6,13 +6,11 @@
   </head>
   <body>
     <header class="main-header">
+        <a aria-current="page">
+          <img class="logo" src="#" width="140" height="70" alt="Логотип Седона">
+        </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li>
-            <a class="navigation-header-logo">
-              <img=src="#" width="140" height="70" alt="Логотип Седона">
-            </a>
-          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -42,10 +40,10 @@
     </header>
 
     <main class="main-index">
-      <section>
+      <section class="hero">
         <h1 class="visually-hidden">Приезжайте в Седону</h1>
-      <img class="hero" src="#" width="1200" height="485" alt="Красные скалы Седоны»">
-      <img class="text" scr="#" alt="Добро пожаловать в Седону">
+      <img class="hero-picture" src="#" width="1200" height="485" alt="Красные скалы Седоны»">
+      <img class="hero-text" scr="#" alt="Добро пожаловать в Седону">
       </section>
 
       <section class="advantages">
@@ -99,18 +97,18 @@
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="hotels-search" href="#">Поиск гостиницы в Седоне</a>
       </section>
-    </main>
-
-    <footer class="page-footer">
       <section class="newsletter">
         <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
         <p class="page-footer-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email" class="visually-hidden">Email</label>
+          <label for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
         </form>
       </section>
+    </main>
+
+    <footer class="page-footer">
       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
