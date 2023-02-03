@@ -44,7 +44,7 @@
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li>
-                <a class="visually-hidden" href="index.html">Главная</a>
+                <a class="breadcrumbs" href="index.html"><span class="visually-hidden">Главная</span></a>
               </li>
               <li>
                 <a class="breadcrumbs" href="catalog.html">Гостиницы</a>
@@ -53,6 +53,7 @@
         </header>
         <section class="catalog-hotels">
             <h2 class="visually-hidden">Параметры гостиниц с фильтрами</h2>
+            <form class="filter-hotel" action="https://echo.htmlacademy.ru/" method="get">
             <p>Инфраструктура</p>
             <label>
               <input type="radio" name="infrastructure" value="swimming-pool" checked>Бассейн
@@ -105,12 +106,12 @@
                     <h3 class="product-card-title">Amara Resort & Spa</h3>
                   </a>
                     <p class="product-card-housing">Гостиница</p>
-                    <p class="product-card-price">от<span>4000</span>₽</p><!--обернула в спан т.к. это значение динамическое, инфляция'c-->
+                    <p class="product-card-price">от <span>4000</span> ₽</p><!--обернула в спан т.к. это значение динамическое, инфляция'c-->
                     <a class="product-card-button-more" href="#">Подробнее</a>
-                    <button type="button" name="to-favorites">В избранное</button><!--я понимаю что переключении в css
+                    <button type="button">В избранное</button><!--я понимаю что переключении в css
                     можно сделать зеленый цвет кнопке. но как "В изранное" поменять на "В изранном"? Эту смену текста надо как-то заложить
                   в разметке?-->
-                    <p class="product-card-rating">Рейтинг:<span>8,5</span></p><!--обернула в спан т.к. это значение динамическое-->
+                    <p class="product-card-rating">Рейтинг: <span>8,5</span></p><!--обернула в спан т.к. это значение динамическое-->
                     <div></div><!--звездочки-->
                 </li>
                 <li class="product-card">
@@ -121,23 +122,24 @@
                       <h3 class="product-card-title">Villas at Poco Diablo</h3>
                     </a>
                     <p class="product-card-housing">Гостиница</p>
-                    <p class="product-card-price">от<span>5000</span>₽</p><!--кстати, пробелы надо учесть, которые должны отделять число?-->
+                    <p class="product-card-price">от <span>5000</span> ₽</p><!--кстати, пробелы надо учесть, которые должны отделять число?-->
                     <a class="product-card-button-more" href="#">Подробнее</a>
-                    <button type="button" name="to-favorites">В избранном</button>
-                    <p class="product-card-rating" href="#">Рейтинг:<span>9,2</span></p>
+                    <button type="button">В избранном</button>
+                    <p class="product-card-rating">Рейтинг: <span>9,2</span></p>
                     <div></div><!--звездочки-->
                 </li>
                 <li class="product-card">
                     <a class="product-card-link" href="#">
                       <img class="product-card-image" src="#" alt="Desert Quail Inn">
+                    </a>
                     <a href="#">
                       <h3 class="product-card-title">Desert Quail Inn</h3>
                     </a>
                     <p class="product-card-housing">Гостиница</p>
-                    <p class="product-card-price">от<span>2500</span>₽</p>
+                    <p class="product-card-price">от <span>2500</span> ₽</p>
                     <a class="product-card-button-more" href="#">Подробнее</a>
-                    <button type="button" name="to-favorites">В избранное</button>
-                    <p class="product-card-button-rating" href="#">Рейтинг:<span>6,9</span></p>
+                    <button type="button">В избранное</button>
+                    <p class="product-card-button-rating">Рейтинг: <span>6,9</span></p>
                     <div></div><!--звездочки-->
                 </li>
                 <li class="product-card">
@@ -148,17 +150,18 @@
                       <h3 class="product-card-title">GreenTree Inn</h3>
                     </a>
                     <p class="product-card-housing">Гостиница</p>
-                    <p class="product-card-price">от 1500 ₽</p>
+                    <p class="product-card-price">от <span>1500</span> ₽</p>
                     <a class="product-card-button-more" href="#">Подробнее</a>
-                    <button type="button" name="to-favorites">В избранное</button>
-                    <p class="product-card-button-rating" href="#">Рейтинг:<span>5,0</span></p>
+                    <button type="button">В избранное</button>
+                    <p class="product-card-button-rating">Рейтинг: <span>5,0</span></p>
                     <div></div><!--звездочки?-->
                 </li>
             </ul>
         </section>
 
         <section class="pagination">
-        <ol class="pagination">
+          <h2 class="visually-hidden">Пагинация</h2>
+        <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
           </li>
@@ -171,22 +174,28 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
-        </ol>
-            <span>...</span>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#"><span>...</span></a>
+          </li>
+          <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
         </section>
         <section class="newsletter">
           <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
           <p class="page-footer-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
+            <label for="newsletter-email" class="visually-hidden">Email</label>
             <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
             <button class="button newsletter-button" type="submit">Подписаться</button>
           </form>
+        </section>
     </main>
 
     <footer class="page-footer">
       <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="#">
@@ -206,9 +215,11 @@
         </ul>
       </section>
       <section class="footer-phone">
+        <h2 class="visually-hidden">Контакты</h2>
         <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
       <section>
+        <h2 class="visually-hidden">Логотип html-academy</h2>
         <a href="https://htmlacademy.ru">
           <img src="#" alt="Логотип html-academy">
         </a>
