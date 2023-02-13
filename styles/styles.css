@@ -41,6 +41,9 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+.navigation-list {
+  list-style-type: none;
+}
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -65,6 +68,9 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+}
+.advantages-list {
+  list-style-type: none;
 }
 .advantages-item {
   width: 400px;
@@ -109,6 +115,9 @@ body {
 .features {
   color: #000000;
   background-color: #ffffff;
+}
+.features-list {
+  list-style-type: none;
 }
 .features-title {
   font-weight: 700;
