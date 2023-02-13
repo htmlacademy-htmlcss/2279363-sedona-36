@@ -32,8 +32,12 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.main-header {
   color: #000000;
   background-color: #ffffff;
 }
