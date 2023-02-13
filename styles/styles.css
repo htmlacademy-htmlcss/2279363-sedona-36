@@ -54,6 +54,9 @@ body {
   background-color: #ffffff;
   text-decoration: none;
 }
+.navigation-user {
+  list-style-type: none;
+}
 .main-index {
   color: #000000;
   background-color: #82B3D3;
@@ -151,6 +154,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
 }
 .newsletter {
   color: #ffffff;
@@ -171,3 +175,20 @@ body {
   line-height: 26px;
   text-align: center;
 }
+.footer-social-list {
+  list-style-type: none;
+}
+.vk {
+  background-image: url("../images/footer/vk-icon.svg");
+  background-repeat: no-repeat;
+}
+.telegram {
+  background-image: url("../images/footer/telegram-icon.svg");
+  background-repeat: no-repeat;
+}
+.youtube {
+  background-image: url("../images/footer/youtube-icon.svg");
+  background-repeat: no-repeat;
+}
+
+/*Catalog*/
