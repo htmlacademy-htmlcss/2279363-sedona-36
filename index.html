@@ -41,14 +41,16 @@
     </header>
 
     <main class="main-index">
-      <section class="hero">
-        <h1 class="visually-hidden">Приезжайте в Седону</h1>
-      <img class="hero-text" src="images/main/welcome-to-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону">
-      </section>
+      <h1 class="visually-hidden">Приезжайте в Седону</h1>
+      <div class="hero-text-container">
+        <img class="hero-text" src="images/main/welcome-to-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону">
+      </div>
 
       <section class="advantages">
-        <h2 class="title">Cедона-небольшой городок в Аризоне, заслуживающий большего!</h2>
-        <p class="subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <div class="title-block">
+          <h2 class="advantages-title">Cедона-небольшой городок в Аризоне, заслуживающий большего!</h2>
+          <p class="advantages-subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
         <ul class="advantages-list">
           <li class="advantages-item advantages-with-image">
             <h3 class="advantages-title">Настоящий городок</h3>
@@ -98,8 +100,8 @@
         <a class="hotels-search" href="#">Поиск гостиницы в Седоне</a>
       </section>
       <section class="newsletter">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p class="page-footer-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+          <p class="page-footer-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
