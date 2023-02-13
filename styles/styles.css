@@ -58,24 +58,22 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-.hero-text {
+.hero-text-container {
   text-align: center;
 }
-.advantages {
+.title-block {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
 }
-.title {
-  font-family: "PT Sans", sans-serif;
+.advantages-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
 }
-.subtitle {
-  font-family: "PT Sans", sans-serif;
+.advantages-subtitle {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -85,7 +83,6 @@ body {
   text-align: center;
 }
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -94,7 +91,6 @@ body {
   color: #ffffff;
 }
 .welcom-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -102,13 +98,11 @@ body {
   text-align: center;
 }
 .welcom-subtitle {
-  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 .features-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -119,7 +113,6 @@ body {
   text-align: center;
 }
 .hotels-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -127,13 +120,11 @@ body {
   text-align: center;
 }
 .hotels-subtitle {
-  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 .hotels-search {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -148,7 +139,6 @@ body {
   background-repeat: no-repeat;
 }
 .page-footer-title {
-  ont-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -156,7 +146,6 @@ body {
   text-align: center;
 }
 .page-footer-subtitle {
-  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
