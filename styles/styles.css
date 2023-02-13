@@ -66,6 +66,10 @@ body {
   background-color: #ffffff;
   text-align: center;
 }
+.advantages-item {
+  width: 400px;
+  height: 384px;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 30px;
