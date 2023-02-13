@@ -58,6 +58,11 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+.advantages {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
 .title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -128,6 +133,8 @@ body {
   color: #ffffff;
   background-color: #82B3D3;
   background-image: url("../images/main/blurred-rocks.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .page-footer-title {
   ont-family: "PT Sans", sans-serif;
