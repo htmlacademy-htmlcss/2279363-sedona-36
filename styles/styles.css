@@ -58,6 +58,9 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+.hero-text {
+  text-align: center;
+}
 .advantages {
   color: #000000;
   background-color: #ffffff;
@@ -69,11 +72,13 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 .subtitle {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 .advantages-list {
   background-color: #82B3D3;
@@ -94,17 +99,20 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 .welcom-subtitle {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 .features-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  text-align: center;
 }
 .features-list {
   background-color: #82B3D3;
@@ -116,11 +124,13 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 .hotels-subtitle {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 .hotels-search {
   font-family: "PT Sans", sans-serif;
@@ -128,6 +138,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 .newsletter {
   color: #ffffff;
@@ -142,9 +153,11 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 .page-footer-subtitle {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
