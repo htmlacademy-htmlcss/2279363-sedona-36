@@ -39,7 +39,7 @@ body {
 }
 .main-header {
   color: #000000;
-  background-color: #83B3D3 20%;
+  background-color: #ffffff;
 }
 .navigation-link {
   font-family: "PT Sans", sans-serif;
@@ -53,8 +53,91 @@ body {
 }
 .main-index {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #82B3D3;
   background-image: url("../images/main/red-rocks.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+.title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+.advantages-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantages-with-image {
+  color: #ffffff;
+}
+.welcom-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.welcom-subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+.features-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.features-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+.hotels-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.hotels-subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+.hotels-search {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.newsletter {
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/main/blurred-rocks.jpg");
+}
+.page-footer-title {
+  ont-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.page-footer-subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
 }
