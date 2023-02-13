@@ -51,3 +51,10 @@ body {
   background-color: #ffffff;
   text-decoration: none;
 }
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/main/red-rocks");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
