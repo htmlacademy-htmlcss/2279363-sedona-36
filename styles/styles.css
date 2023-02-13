@@ -41,3 +41,13 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+.navigation {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000ff;
+  background-color: #ffffff;
+  text-decoration: none;
+}
