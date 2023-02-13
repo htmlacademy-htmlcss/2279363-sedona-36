@@ -39,7 +39,7 @@ body {
 }
 .main-header {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #83B3D3 20%;
 }
 .navigation-link {
   font-family: "PT Sans", sans-serif;
@@ -54,7 +54,7 @@ body {
 .main-index {
   color: #000000;
   background-color: #ffffff;
-  background-image: url("../images/main/red-rocks");
+  background-image: url("../images/main/red-rocks.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
