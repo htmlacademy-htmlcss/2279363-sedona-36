@@ -61,7 +61,7 @@ body {
 .hero-text-container {
   text-align: center;
 }
-.title-block {
+.advantages {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
@@ -102,6 +102,10 @@ body {
   line-height: 26px;
   text-align: center;
 }
+.features {
+  color: #000000;
+  background-color: #ffffff;
+}
 .features-title {
   font-weight: 700;
   font-size: 24px;
@@ -111,6 +115,10 @@ body {
 .features-list {
   background-color: #82B3D3;
   text-align: center;
+}
+.hotels {
+  color: #000000;
+  background-color: #ffffff;
 }
 .hotels-title {
   font-weight: 700;
