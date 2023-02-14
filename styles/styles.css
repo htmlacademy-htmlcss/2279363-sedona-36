@@ -61,7 +61,7 @@ body {
   color: #000000;
   background-color: #82B3D3;
   background-image: url("../images/main/red-rocks.jpg");
-  background-size: 100% auto;
+  background-size: 1200px 485px;
   background-repeat: no-repeat;
 }
 .hero-text-container {
@@ -160,7 +160,7 @@ body {
   color: #ffffff;
   background-color: #82B3D3;
   background-image: url("../images/main/blurred-rocks.jpg");
-  background-size: 100% auto;
+  background-size: 1200px 414px;
   background-repeat: no-repeat;
 }
 .page-footer-title {
@@ -192,3 +192,7 @@ body {
 }
 
 /*Catalog*/
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
