@@ -57,6 +57,9 @@ body {
 .navigation-user {
   list-style-type: none;
 }
+.want-here {
+  text-transform: uppercase;
+}
 .main-index {
   color: #000000;
   background-color: #82B3D3;
@@ -193,6 +196,71 @@ body {
 
 /*Catalog*/
 .inner-header-title {
+  font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+}
+.main-inner {
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/catalog/blured-rocks-catalog.jpg");
+  background-size: 1200px 412px;
+  background-repeat: no-repeat;
+}
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.filter-hotel-price,
+.filter-hotel-housing,
+.filter-hotel-infrastructure {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.button-on,
+.button-off {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.searching-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.product-card-button-more,
+.product-card-button-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+.product-card-button-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
 }
