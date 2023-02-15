@@ -82,7 +82,6 @@ body {
   width: 400px;
   height: 384px;
 }
-130	179	211
 .advantages-title {
   font-weight: 700;
   font-size: 30px;
@@ -111,14 +110,14 @@ body {
 .advantages-with-image {
   color: #ffffff;
 }
-.welcom-title {
+.welcome-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
 }
-.welcom-subtitle {
+.welcome-subtitle {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -279,6 +278,7 @@ body {
 }
 .pagination {
   list-style-type: none;
+  text-decoration: none;
 }
 .pagination-link {
   color: #ffffff;
@@ -286,5 +286,4 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-align: center;
-  text-decoration: none;
 }
