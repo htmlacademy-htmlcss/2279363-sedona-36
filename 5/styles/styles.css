@@ -57,6 +57,9 @@ body {
 .navigation-user {
   list-style-type: none;
 }
+.navigation-link-want-here {
+  text-transform: uppercase;
+}
 .main-index {
   color: #000000;
   background-color: #82B3D3;
@@ -95,7 +98,11 @@ body {
   background-color: #82B3D3;
   text-align: center;
 }
-.advantages-title {
+.advantages-real-town,
+.advantages-small-area,
+.advantages-beautiful-road,
+.advantages-few-tourists,
+.advantages-devil-bridge {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -103,14 +110,14 @@ body {
 .advantages-with-image {
   color: #ffffff;
 }
-.welcom-title {
+.welcome-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
 }
-.welcom-subtitle {
+.welcome-subtitle {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -190,9 +197,93 @@ body {
   background-image: url("../images/footer/youtube-icon.svg");
   background-repeat: no-repeat;
 }
+.contacts-phone {
+  color: #000000
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
 
 /*Catalog*/
 .inner-header-title {
+  font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+}
+.main-inner {
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/catalog/blured-rocks-catalog.jpg");
+  background-size: 1200px 412px;
+  background-repeat: no-repeat;
+}
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+  list-style-type: none;
+}
+.breadcrumbs-home,
+.breadcrumbs-hotel {
+  color: #ffffff;
+  text-decoration: none;
+}
+.filter-hotel-price,
+.filter-hotel-housing,
+.filter-hotel-infrastructure {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.button-on,
+.button-off {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.searching-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.product-card {
+  list-style-type: none;
+}
+.product-card-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.product-card-button-more {
+  color: #ffffff;
+}
+.product-card-button-more,
+.product-card-button-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+.product-card-button-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pagination {
+  list-style-type: none;
+  text-decoration: none;
+}
+.pagination-link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
 }
