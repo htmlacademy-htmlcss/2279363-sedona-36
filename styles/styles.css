@@ -57,7 +57,7 @@ body {
 .navigation-user {
   list-style-type: none;
 }
-.want-here {
+.navigation-link-want-here {
   text-transform: uppercase;
 }
 .main-index {
@@ -193,6 +193,11 @@ body {
   background-image: url("../images/footer/youtube-icon.svg");
   background-repeat: no-repeat;
 }
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  list-style-type: none;
+}
 
 /*Catalog*/
 .inner-header-title {
@@ -241,10 +246,14 @@ body {
   list-style-type: none;
 }
 .product-card-title {
+  color: #ffffff
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
+}
+.product-card-button-more {
+  color: #ffffff;
 }
 .product-card-button-more,
 .product-card-button-favorites {
@@ -263,6 +272,7 @@ body {
 }
 .pagination {
   list-style-type: none;
+  color: #ffffff;
 }
 .pagination-link {
   font-weight: 700;
