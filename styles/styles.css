@@ -196,7 +196,7 @@ body {
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  list-style-type: none;
+  list-style: none;
 }
 
 /*Catalog*/
