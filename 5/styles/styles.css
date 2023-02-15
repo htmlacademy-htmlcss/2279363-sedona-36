@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.main-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.navigation-user {
+  list-style-type: none;
+}
+.main-index {
+  color: #000000;
+  background-color: #82B3D3;
+  background-image: url("../images/main/red-rocks.jpg");
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
+}
+.hero-text-container {
+  text-align: center;
+}
+.advantages {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+.advantages-list {
+  list-style-type: none;
+}
+.advantages-item {
+  width: 400px;
+  height: 384px;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.advantages-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantages-with-image {
+  color: #ffffff;
+}
+.welcom-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.welcom-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.features {
+  color: #000000;
+  background-color: #ffffff;
+}
+.features-list {
+  list-style-type: none;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.features-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+.hotels {
+  color: #000000;
+  background-color: #ffffff;
+}
+.hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hotels-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.hotels-search {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+.newsletter {
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/main/blurred-rocks.jpg");
+  background-size: 1200px 414px;
+  background-repeat: no-repeat;
+}
+.page-footer-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.page-footer-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.footer-social-list {
+  list-style-type: none;
+}
+.vk {
+  background-image: url("../images/footer/vk-icon.svg");
+  background-repeat: no-repeat;
+}
+.telegram {
+  background-image: url("../images/footer/telegram-icon.svg");
+  background-repeat: no-repeat;
+}
+.youtube {
+  background-image: url("../images/footer/youtube-icon.svg");
+  background-repeat: no-repeat;
+}
+
+/*Catalog*/
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
