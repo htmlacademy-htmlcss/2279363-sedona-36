@@ -273,9 +273,9 @@ body {
 }
 .pagination {
   list-style-type: none;
-  color: #ffffff;
 }
 .pagination-link {
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
