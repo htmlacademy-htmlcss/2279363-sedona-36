@@ -193,10 +193,10 @@ body {
   background-image: url("../images/footer/youtube-icon.svg");
   background-repeat: no-repeat;
 }
-.contacts-phone {
+a.contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  list-style: none;
+  list-style-type: none;
 }
 
 /*Catalog*/
