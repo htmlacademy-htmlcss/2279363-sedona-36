@@ -193,7 +193,7 @@ body {
   background-image: url("../images/footer/youtube-icon.svg");
   background-repeat: no-repeat;
 }
-a.contacts-phone {
+.contacts-phone {
   font-size: 40px;
   line-height: 40px;
   list-style-type: none;
