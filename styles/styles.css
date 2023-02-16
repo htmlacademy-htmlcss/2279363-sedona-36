@@ -232,6 +232,7 @@ body {
   text-transform: uppercase;
 }
 .product-card {
+  color: #000000;
   list-style-type: none;
 }
 .product-card-link {
@@ -242,9 +243,6 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-}
-.product-card-button-more {
-  color: #ffffff;
 }
 .product-card-button-more,
 .product-card-button-favorites {
@@ -265,7 +263,6 @@ body {
   list-style-type: none;
 }
 .pagination-link {
-  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
