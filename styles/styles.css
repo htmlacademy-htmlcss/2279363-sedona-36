@@ -222,8 +222,7 @@ body {
   line-height: 21px;
   list-style-type: none;
 }
-.breadcrumbs-home,
-.breadcrumbs-hotel {
+.breadcrumbs-link {
   color: #ffffff;
   text-decoration: none;
 }
