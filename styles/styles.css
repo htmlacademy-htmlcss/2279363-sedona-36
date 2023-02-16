@@ -235,10 +235,10 @@ body {
   list-style-type: none;
 }
 .product-card-link {
+  color: #00000;
   text-decoration: none;
 }
 .product-card-title {
-  color: #00000;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
