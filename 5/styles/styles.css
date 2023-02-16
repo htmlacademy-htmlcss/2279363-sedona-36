@@ -185,25 +185,12 @@ body {
 .footer-social-list {
   list-style-type: none;
 }
-.vk {
-  background-image: url("../images/footer/vk-icon.svg");
-  background-repeat: no-repeat;
-}
-.telegram {
-  background-image: url("../images/footer/telegram-icon.svg");
-  background-repeat: no-repeat;
-}
-.youtube {
-  background-image: url("../images/footer/youtube-icon.svg");
-  background-repeat: no-repeat;
-}
 .contacts-phone {
-  color: #000000
+  color: #000000;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
 }
-
 /*Catalog*/
 .inner-header-title {
   font-weight: 700;
@@ -212,7 +199,6 @@ body {
 }
 .main-inner {
   color: #ffffff;
-  background-color: #82B3D3;
   background-image: url("../images/catalog/blured-rocks-catalog.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
@@ -222,14 +208,11 @@ body {
   line-height: 21px;
   list-style-type: none;
 }
-.breadcrumbs-home,
-.breadcrumbs-hotel {
+.breadcrumbs-link {
   color: #ffffff;
   text-decoration: none;
 }
-.filter-hotel-price,
-.filter-hotel-housing,
-.filter-hotel-infrastructure {
+.filter-hotel-options {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -249,17 +232,17 @@ body {
   text-transform: uppercase;
 }
 .product-card {
+  color: #000000;
   list-style-type: none;
 }
+.product-card-link {
+  color: #000000;
+  text-decoration: none;
+}
 .product-card-title {
-  color: #ffffff;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-decoration: none;
-}
-.product-card-button-more {
-  color: #ffffff;
 }
 .product-card-button-more,
 .product-card-button-favorites {
@@ -278,12 +261,11 @@ body {
 }
 .pagination {
   list-style-type: none;
-  text-decoration: none;
 }
 .pagination-link {
-  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
+  text-decoration: none;
 }
