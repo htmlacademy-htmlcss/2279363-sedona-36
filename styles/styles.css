@@ -185,25 +185,12 @@ body {
 .footer-social-list {
   list-style-type: none;
 }
-.vk {
-  background-image: url("../images/footer/vk-icon.svg");
-  background-repeat: no-repeat;
-}
-.telegram {
-  background-image: url("../images/footer/telegram-icon.svg");
-  background-repeat: no-repeat;
-}
-.youtube {
-  background-image: url("../images/footer/youtube-icon.svg");
-  background-repeat: no-repeat;
-}
 .contacts-phone {
-  color: #000000
+  color: #000000;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
 }
-
 /*Catalog*/
 .inner-header-title {
   font-weight: 700;
@@ -212,7 +199,6 @@ body {
 }
 .main-inner {
   color: #ffffff;
-  background-color: #82B3D3;
   background-image: url("../images/catalog/blured-rocks-catalog.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
