@@ -245,8 +245,10 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
-.product-card-link {
+.product-card {
   list-style-type: none;
+}
+.product-card-link {
   text-decoration: none;
 }
 .product-card-title {
