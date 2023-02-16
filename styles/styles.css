@@ -203,6 +203,9 @@ body {
   background-size: 1200px 412px;
   background-repeat: no-repeat;
 }
+.filter {
+  background-color: #82B3D3;
+}
 .breadcrumbs {
   font-size: 16px;
   line-height: 21px;
