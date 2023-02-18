@@ -33,7 +33,6 @@ body {
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -55,13 +54,13 @@ body {
 .main-index {
   color: #000000;
   background-color: #82B3D3;
-  background-image: url("../images/main/red-rocks.jpg");
-  background-size: 1200px 485px;
-  background-repeat: no-repeat;
 }
 
 .hero-text-container {
   text-align: center;
+  background-image: url("../images/main/red-rocks.jpg");
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
 }
 
 .advantages {
@@ -72,11 +71,6 @@ body {
 
 .advantages-list {
   list-style-type: none;
-}
-
-.advantages-item {
-  width: 400px;
-  height: 384px;
 }
 
 .advantages-title {
