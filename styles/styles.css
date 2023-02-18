@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*Header*/
+.main-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-user {
+  list-style-type: none;
+}
+
+.navigation-link-want-here {
+  text-transform: uppercase;
+}
+
+/*Index*/
+.main-index {
+  color: #000000;
+}
+
+.hero-text-container {
+  text-align: center;
+  background-image: url("../images/main/red-rocks.jpg");
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
+  background-color: #82B3D3;
+}
+
+.advantages {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-with-image {
+  color: #ffffff;
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.welcome-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.features {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.features-list {
+  list-style-type: none;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.features-list {
+  background-color: #82B3D3;
+  text-align: center;
+}
+
+.hotels {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hotels-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.hotels-search {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.newsletter {
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/main/blurred-rocks.jpg");
+  background-size: 1200px 414px;
+  background-repeat: no-repeat;
+}
+
+.page-footer-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-footer-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/*Footer*/
+.footer-social-list {
+  list-style-type: none;
+}
+
+.contacts-phone {
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+/*Catalog*/
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.main-inner {
+  color: #ffffff;
+  background-image: url("../images/catalog/blured-rocks-catalog.jpg");
+  background-size: 1200px 412px;
+  background-repeat: no-repeat;
+}
+
+.filter {
+  background-color: #82B3D3;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.filter-hotel-options {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button-on,
+.button-off {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.searching-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-card {
+  color: #000000;
+  list-style-type: none;
+}
+
+.product-card-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card-button-more,
+.product-card-button-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-card-button-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pagination {
+  list-style-type: none;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+}
