@@ -53,7 +53,6 @@ body {
 /*Index*/
 .main-index {
   color: #000000;
-  background-color: #82B3D3;
 }
 
 .hero-text-container {
@@ -61,6 +60,7 @@ body {
   background-image: url("../images/main/red-rocks.jpg");
   background-size: 1200px 485px;
   background-repeat: no-repeat;
+  background-color: #82B3D3;
 }
 
 .advantages {
