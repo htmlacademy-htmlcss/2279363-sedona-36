@@ -98,11 +98,7 @@ body {
   background-color: #82B3D3;
   text-align: center;
 }
-.advantages-real-town,
-.advantages-small-area,
-.advantages-beautiful-road,
-.advantages-few-tourists,
-.advantages-devil-bridge {
+.advantages-subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
