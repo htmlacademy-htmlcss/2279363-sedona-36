@@ -138,6 +138,11 @@ body {
 }
 
 .advantages-item-with-image {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0;
+  padding: 0;
   width: 1200px;
   color: #ffffff;
 }
