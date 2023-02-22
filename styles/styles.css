@@ -21,6 +21,7 @@ html {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -33,11 +34,17 @@ body {
 
 /*Header*/
 .main-header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   color: #000000;
   background-color: #ffffff;
 }
 
 .navigation-list {
+  width: 339;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -52,6 +59,10 @@ body {
 }
 
 .navigation-user {
+  width: 268;
+  margin-left: auto;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -60,6 +71,15 @@ body {
 }
 
 /*Index*/
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .main-index {
   color: #000000;
 }
@@ -72,6 +92,11 @@ body {
   background-color: #82b3d3;
 }
 
+.hero-text {
+  display: block;
+  margin: 0 auto;
+}
+
 .advantages {
   color: #000000;
   background-color: #ffffff;
@@ -79,6 +104,12 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
