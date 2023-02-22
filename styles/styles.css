@@ -14,12 +14,21 @@
   font-display: swap;
 }
 
+html {
+  hight: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+
+  outline: 5px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
 }
 
 /*Header*/
