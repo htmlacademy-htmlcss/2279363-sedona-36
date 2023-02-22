@@ -132,14 +132,25 @@ body {
   text-align: center;
 }
 
+.advantages-item-with-image {
+  width: 1200px;
+  color: #ffffff;
+}
+
+.advantages-item:nth-child(2n) {
+  width: 400px;
+  background-color: rgba(130, 179, 211, 0.12);
+}
+
+.advantages-item {
+  width: 400px;
+  background-color: rgba(130, 179, 211, 0.2);
+}
+
 .advantages-subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-}
-
-.advantages-with-image {
-  color: #ffffff;
 }
 
 .welcome-title {
