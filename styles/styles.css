@@ -139,8 +139,10 @@ body {
 
 .advantages-item-with-image {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   width: 1200px;
