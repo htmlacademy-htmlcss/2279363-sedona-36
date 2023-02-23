@@ -50,6 +50,8 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  justify-content: space-between;
   width: 339px;
   margin: 0;
   padding: 0;
@@ -261,6 +263,7 @@ body {
 .page-footer {
   display: flex;
   justify-content: space-between;
+  align-content: baseline;
 }
 
 .footer {
