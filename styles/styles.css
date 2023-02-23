@@ -69,6 +69,8 @@ body {
 }
 
 .navigation-user {
+  display: flex;
+  justify-content: space-between;
   width: 268px;
   margin-left: auto;
   margin: 0;
