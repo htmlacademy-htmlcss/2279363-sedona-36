@@ -262,6 +262,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
 
 .footer-social-list {
   list-style-type: none;
