@@ -231,11 +231,12 @@ body {
 }
 
 .hotels-search {
+  width: 376;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
-  margin: 0 auto;
+  align-items: center;
   text-decoration: none;
 }
 
