@@ -117,7 +117,7 @@ body {
 
 .title-block {
   height: 261px;
-  padding: 69px 0px;
+  padding: 69 0px;
 }
 
 .advantages-list {
@@ -128,6 +128,7 @@ body {
   padding: 0;
   flex-wrap: wrap;
   list-style-type: none;
+  background-color: #82b3d3;
 }
 
 .advantages-title {
@@ -141,11 +142,6 @@ body {
 .advantages-subtitle {
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
-}
-
-.advantages-list {
-  background-color: #82b3d3;
   text-align: center;
 }
 
@@ -197,6 +193,7 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: #82b3d3;
 }
 
 .features-title {
@@ -206,9 +203,9 @@ body {
   text-align: center;
 }
 
-.features-list {
-  background-color: #82b3d3;
-  text-align: center;
+.features-item {
+  width: 400px;
+  height: 385px;
 }
 
 .hotels {
