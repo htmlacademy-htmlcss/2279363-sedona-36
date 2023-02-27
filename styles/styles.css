@@ -100,6 +100,8 @@ body {
   text-align: center;
   background-image: url("../images/main/red-rocks.jpg");
   background-size: 1200px 485px;
+  padding-top: 51px;
+  padding-bottom: 82px;
   background-repeat: no-repeat;
   background-color: #82b3d3;
 }
