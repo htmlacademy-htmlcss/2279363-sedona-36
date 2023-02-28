@@ -25,21 +25,21 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
-
-  outline: 5px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
 }
 
 .index-container {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /*Header*/
 .main-header {
   color: #000000;
   background-color: #ffffff;
+  padding: 0 70px;
 }
 
 .navigation {
@@ -129,7 +129,6 @@ body {
   padding: 0;
   flex-wrap: wrap;
   list-style-type: none;
-  background-color: #82b3d3;
 }
 
 .advantages-title {
@@ -156,17 +155,16 @@ body {
   padding: 0;
   width: 1200px;
   color: #ffffff;
+  background-color: #82b3d3;
 }
 
-.advantages-item:nth-child(2n) {
+.advantages-item {
   width: 400px;
-  height: 358px;
+  min-height: 358px;
   background-color: rgba(130, 179, 211, 0.12);
 }
 
 .advantages-item:nth-child(even) {
-  width: 400px;
-  height: 358px;
   background-color: rgba(130, 179, 211, 0.2);
 }
 
@@ -211,9 +209,8 @@ body {
   height: 385px;
 }
 
-.hotels {
-  color: #000000;
-  background-color: #ffffff;
+.title-block-hotels {
+  padding: 96px 304px 104px;
 }
 
 .hotels-title {
@@ -246,6 +243,7 @@ body {
   background-image: url("../images/main/blurred-rocks.jpg");
   background-size: 1200px 414px;
   background-repeat: no-repeat;
+  padding: 96px 258px 104px;
 }
 
 .page-subscription-title {
@@ -287,18 +285,29 @@ body {
 }
 
 /*Catalog*/
+.catalog-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
-.main-inner {
-  color: #ffffff;
+.main-inner-header-container {
   background-image: url("../images/catalog/blured-rocks-catalog.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
   background-color: #82b3d3;
+  padding: 35px 70px 70px;
+  color: #ffffff;
+}
+
+.main-inner-header {
+  display: flex;
+  flex-direction: column;
 }
 
 .breadcrumbs {
@@ -312,7 +321,7 @@ body {
   text-decoration: none;
 }
 
-.filter-container {
+.filter-hotel {
   display: flex;
   flex-direction: row;
 }
@@ -332,6 +341,11 @@ body {
   text-align: center;
 }
 
+.searching-results-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .searching-results {
   font-weight: 700;
   font-size: 30px;
@@ -339,9 +353,22 @@ body {
   text-transform: uppercase;
 }
 
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .product-card {
   color: #000000;
   list-style-type: none;
+  margin: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.product-card-image {
+  padding: 20px;
 }
 
 .product-card-link {
@@ -373,6 +400,9 @@ body {
 }
 
 .pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   list-style-type: none;
 }
 
