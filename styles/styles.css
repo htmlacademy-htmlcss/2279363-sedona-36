@@ -27,7 +27,7 @@ body {
   background-color: #ffffff;
 }
 
-.index-container {
+.page-container {
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -91,11 +91,6 @@ body {
   flex-grow: 1;
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .main-index {
   color: #000000;
 }
@@ -127,7 +122,6 @@ body {
 
 .advantages-list {
   display: flex;
-  justify-content: space-between;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -152,12 +146,7 @@ body {
 .advantages-item-with-image {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   text-align: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 1200px;
   color: #ffffff;
   background-color: #82b3d3;
 }
@@ -193,7 +182,6 @@ body {
 
 .features-list {
   display: flex;
-  justify-content: space-between;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -210,7 +198,7 @@ body {
 
 .features-item {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .title-block-hotels {
@@ -289,11 +277,6 @@ body {
 }
 
 /*Catalog*/
-.catalog-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
@@ -307,11 +290,6 @@ body {
   background-color: #82b3d3;
   padding: 35px 70px 70px;
   color: #ffffff;
-}
-
-.main-inner-header {
-  display: flex;
-  flex-direction: column;
 }
 
 .breadcrumbs {
@@ -360,19 +338,34 @@ body {
 .product-list {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
   color: #000000;
   list-style-type: none;
-  margin: 20px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
 
+.product-card:nth-child(3n) {
+  margin-right: 0;
+}
+
 .product-card-image {
-  padding: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .product-card-link {
