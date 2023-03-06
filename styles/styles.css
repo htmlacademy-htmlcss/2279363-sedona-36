@@ -14,7 +14,12 @@
   font-display: swap;
 }
 
+html {
+  hight: 100%;
+}
+
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -22,17 +27,39 @@ body {
   background-color: #ffffff;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /*Header*/
 .main-header {
   color: #000000;
   background-color: #ffffff;
+  padding: 0 70px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr;
+  column-gap: 30px;
+  justify-content: space-between;
 }
 
 .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 339px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 .navigation-link {
+  display: block;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -40,9 +67,16 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-decoration: none;
+  padding: 20px 16px;
 }
 
 .navigation-user {
+  display: flex;
+  justify-content: space-between;
+  width: 268px;
+  margin-left: auto;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -51,6 +85,10 @@ body {
 }
 
 /*Index*/
+.main-container {
+  flex-grow: 1;
+}
+
 .main-index {
   color: #000000;
 }
@@ -59,8 +97,15 @@ body {
   text-align: center;
   background-image: url("../images/main/red-rocks.jpg");
   background-size: 1200px 485px;
+  padding-top: 51px;
+  padding-bottom: 82px;
   background-repeat: no-repeat;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
+}
+
+.hero-text {
+  display: block;
+  margin: 0 auto;
 }
 
 .advantages {
@@ -69,7 +114,16 @@ body {
   text-align: center;
 }
 
+.title-block {
+  padding: 69px 0 69px 0;
+}
+
 .advantages-list {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
@@ -87,19 +141,22 @@ body {
   text-align: center;
 }
 
-.advantages-list {
-  background-color: #82B3D3;
+.advantages-item-with-image {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-}
-
-.advantages-subtitle {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.advantages-with-image {
   color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-item {
+  width: 400px;
+  min-height: 358px;
+  background-color: rgba(130, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(even) {
+  background-color: rgba(130, 179, 211, 0.2);
 }
 
 .welcome-title {
@@ -122,7 +179,12 @@ body {
 }
 
 .features-list {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+  background-color: #82b3d3;
 }
 
 .features-title {
@@ -132,14 +194,13 @@ body {
   text-align: center;
 }
 
-.features-list {
-  background-color: #82B3D3;
-  text-align: center;
+.features-item {
+  width: 400px;
+  min-height: 385px;
 }
 
-.hotels {
-  color: #000000;
-  background-color: #ffffff;
+.title-block-hotels {
+  padding: 96px 304px 104px;
 }
 
 .hotels-title {
@@ -157,6 +218,7 @@ body {
 }
 
 .hotels-search {
+  width: 376px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -167,13 +229,14 @@ body {
 
 .newsletter {
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   background-image: url("../images/main/blurred-rocks.jpg");
   background-size: 1200px 414px;
   background-repeat: no-repeat;
+  padding: 96px 258px 104px;
 }
 
-.page-footer-title {
+.page-subscription-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -181,14 +244,26 @@ body {
   text-align: center;
 }
 
-.page-footer-subtitle {
+.page-subscription-subtitle {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
 /*Footer*/
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+}
+
+.footer {
+  margin: auto;
+}
+
 .footer-social-list {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
 }
 
@@ -206,15 +281,13 @@ body {
   line-height: 78px;
 }
 
-.main-inner {
-  color: #ffffff;
+.main-inner-header-container {
   background-image: url("../images/catalog/blured-rocks-catalog.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
-}
-
-.filter {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
+  padding: 35px 70px 70px;
+  color: #ffffff;
 }
 
 .breadcrumbs {
@@ -226,6 +299,11 @@ body {
 .breadcrumbs-link {
   color: #ffffff;
   text-decoration: none;
+}
+
+.filter-hotel {
+  display: flex;
+  flex-direction: row;
 }
 
 .filter-hotel-options {
@@ -243,6 +321,11 @@ body {
   text-align: center;
 }
 
+.searching-results-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .searching-results {
   font-weight: 700;
   font-size: 30px;
@@ -250,9 +333,37 @@ body {
   text-transform: uppercase;
 }
 
+.product-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+}
+
 .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
   color: #000000;
   list-style-type: none;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.product-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product-card-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .product-card-link {
@@ -284,6 +395,9 @@ body {
 }
 
 .pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   list-style-type: none;
 }
 
