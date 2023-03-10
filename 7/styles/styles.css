@@ -1,0 +1,491 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  hight: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Header*/
+.main-header {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 0 70px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr;
+  column-gap: 30px;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 339px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-link {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-link-left {
+  padding: 20px 16px;
+}
+
+.navigation-link-right {
+  padding: 22px 12px;
+}
+
+.navigation-link-want-here {
+  padding: 8px 34px;
+}
+
+.navigation-user {
+  display: flex;
+  justify-content: space-between;
+  width: 268px;
+  margin-left: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-link-want-here {
+  text-transform: uppercase;
+}
+
+/*Index*/
+.main-container {
+  flex-grow: 1;
+}
+
+.main-index {
+  color: #000000;
+}
+
+.hero-text-container {
+  text-align: center;
+  background-image: url("../images/main/red-rocks.jpg");
+  background-size: 1200px 485px;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  background-repeat: no-repeat;
+  background-color: #82b3d3;
+}
+
+.hero-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.title-block {
+  padding: 69px 0 69px 0;
+}
+
+.advantages-list {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-item-with-image {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-with-image {
+  margin: auto 85px;
+}
+
+.advantages-without-image {
+  margin: auto 85px;
+}
+
+.advantages-item {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 400px;
+  min-height: 358px;
+  background-color: rgba(130, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(even) {
+  background-color: rgba(130, 179, 211, 0.2);
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.welcome-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.features {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.features-list {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgba(130, 179, 211, 0.12);
+}
+
+.features-item:nth-child(2n+1) {
+  background-color: rgba(130, 179, 211, 0.2);
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features-item-container {
+  margin: auto 85px;
+}
+
+.features-item {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 400px;
+  min-height: 385px;
+}
+
+.title-block-hotels {
+  padding: 96px 304px 104px;
+  text-align: center;
+}
+
+.hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hotels-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.hotels-search {
+  width: 376px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.newsletter {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/main/blurred-rocks.jpg");
+  background-size: 1200px 414px;
+  background-repeat: no-repeat;
+  padding: 96px 258px 104px;
+}
+
+.newsletter-form {
+  text-align: center;
+}
+
+.page-subscription-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-subscription-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/*Footer*/
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+  padding: 40px 70px 30px;
+}
+
+.footer {
+  margin: auto;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.contacts-phone {
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+/*Catalog*/
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.main-inner-header-container {
+  background-image: url("../images/catalog/blured-rocks-catalog.jpg");
+  background-size: 1200px 412px;
+  background-repeat: no-repeat;
+  background-color: #82b3d3;
+  padding: 35px 70px 70px;
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.filter-hotel-options-container {
+  display: flex;
+}
+
+.filter-hotel {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-hotel-options {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button-on,
+.button-off {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.searching-results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+}
+
+.select-control {
+  padding: 14px 20px;
+}
+
+.searching-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 70px;
+  padding: 0;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: #000000;
+  list-style-type: none;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.product-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product-card-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card-button-more,
+.product-card-button-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-card-button-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 70px;
+  padding: 0;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.pagination-link:nth-child(3n) {
+  margin-right: 0;
+}
+
+.newsletter-catalog {
+  color: #000000;
+  padding: 96px 258px 104px;
+}
+
+.newsletter-form {
+  text-align: center;
+}
