@@ -179,7 +179,7 @@ body {
   background-color: rgba(130, 179, 211, 0.12);
   padding: 112.5px 85px;
   box-sizing: border-box;
-  max-width: 400px;
+  width: 400px;
 }
 
 .advantages-item:nth-child(even) {
@@ -231,7 +231,7 @@ body {
   text-align: center;
   min-height: 385px;
   padding: 81px 85px;
-  max-width: 400px;
+  width: 400px;
   box-sizing: border-box;
 }
 
